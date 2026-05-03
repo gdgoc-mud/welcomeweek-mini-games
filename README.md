@@ -1,42 +1,43 @@
-# sv
+  ____ ____   ____  ___   ____ 
+ / ___|  _ \ / ___|/ _ \ / ___|
+| |  _| | | | |  _| | | | |    
+| |_| | |_| | |_| | |_| | |___ 
+ \____|____/ \____|\___/ \____|
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+ __  __ ___ _   _ ___ 
+|  \/  |_ _| \ | |_ _|
+| |\/| || ||  \| || | 
+| |  | || || |\  || | 
+|_|  |_|___|_| \_|___|
+                      
+  ____    _    __  __ _____ ____  
+ / ___|  / \  |  \/  | ____/ ___| 
+| |  _  / _ \ | |\/| |  _| \___ \ 
+| |_| |/ ___ \| |  | | |___ ___) |
+ \____/_/   \_\_|  |_|_____|____/ 
 
-## Creating a project
+A local network 2-player kiosk web app for the welcome week booth. Features Trivia and Debug game modes with real-time sync.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Setup
 
+Install dependencies:
 ```sh
-# create a new project
-npx sv create my-app
+npm install
 ```
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.15.2 create --template minimal --types jsdoc --no-install gdgoc-games
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+Start development server:
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Production
 
-To create a production version of your app:
-
+Build the application:
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Run the application on the local network (replace `<IP>` with your machine's local network IP address):
+```sh
+PUBLIC_HOST_IP=<IP> HOST=0.0.0.0 PORT=3000 node build
+```
