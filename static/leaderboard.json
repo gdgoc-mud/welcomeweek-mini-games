@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2203e130-b19b-4f6e-9298-6eec1250f30b",
+    "name": "Talha",
+    "mode": "trivia",
+    "score": 500,
+    "playerCount": 1,
+    "opponent": null,
+    "timestamp": "2026-05-02T17:54:03.902Z"
+  },
+  {
+    "id": "4d2cf1ad-235d-4569-a05b-d37403705672",
+    "name": "taka",
+    "mode": "debug",
+    "score": 800,
+    "playerCount": 1,
+    "opponent": null,
+    "timestamp": "2026-05-02T17:55:00.863Z"
+  },
+  {
+    "id": "60163d5a-3041-4ec6-82ff-a5db3eb08392",
+    "name": "tal",
+    "mode": "trivia",
+    "score": 700,
+    "playerCount": 2,
+    "opponent": "tallha",
+    "timestamp": "2026-05-02T18:16:11.242Z"
+  },
+  {
+    "id": "be3eebdd-0c2e-498d-9eed-352ecbcc222f",
+    "name": "tallha",
+    "mode": "trivia",
+    "score": 1000,
+    "playerCount": 2,
+    "opponent": "tal",
+    "timestamp": "2026-05-02T18:16:39.200Z"
+  },
+  {
+    "id": "9936c318-1eca-49f0-9f89-ff5c69ff24c9",
+    "name": "Talha",
+    "mode": "debug",
+    "score": 1300,
+    "playerCount": 2,
+    "opponent": "we",
+    "timestamp": "2026-05-02T18:23:58.027Z"
+  },
+  {
+    "id": "285d38b3-1bf6-4a8b-a8de-2ca968121f1b",
+    "name": "we",
+    "mode": "debug",
+    "score": 300,
+    "playerCount": 2,
+    "opponent": "Talha",
+    "timestamp": "2026-05-02T18:24:24.113Z"
+  },
+  {
+    "id": "4f88ca5a-3f76-4b36-8bd9-eb249f6e41d1",
+    "name": "t",
+    "mode": "debug",
+    "score": 0,
+    "playerCount": 1,
+    "opponent": null,
+    "timestamp": "2026-05-03T10:12:16.736Z"
+  }
+]
