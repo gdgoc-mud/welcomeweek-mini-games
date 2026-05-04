@@ -29,6 +29,7 @@ export function broadcast(roomCode, event, data) {
 			controller.enqueue(message);
 		} catch (e) {
 			console.error("Error sending to client:", e);
+			room.clients.delete(controller);
 		}
 	});
 }

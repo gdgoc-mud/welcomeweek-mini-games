@@ -19,11 +19,17 @@ export async function POST({ request }) {
 		code = generateCode();
 	}
 	
+	let gameState = null;
+	if (mode === 'merge') gameState = { grid: Array(36).fill(0), hostReady: false, guestReady: false, started: false };
+	if (mode === 'ddos') gameState = { position: 0, hostReady: false, guestReady: false, started: false };
+	if (mode === 'bug') gameState = { bugs: [], hostReady: false, guestReady: false, started: false };
+
 	rooms.set(code, {
 		host: { name, ready: false, score: 0, progress: 0, finished: false, history: [] },
 		guest: null,
 		status: 'waiting',
 		mode,
+		gameState,
 		createdAt: Date.now(),
 		clients: new Set()
 	});

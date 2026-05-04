@@ -24,10 +24,11 @@ export async function POST({ request, params }) {
 		host: room.host,
 		guest: room.guest,
 		status: room.status,
-		mode: room.mode
+		mode: room.mode,
+		gameState: room.gameState
 	});
 
-	if (room.status === 'playing') {
+	if (room.status !== 'done') {
 		if (room.host?.finished && room.guest?.finished) {
 			room.status = 'done';
 			broadcast(roomCode, 'game_over', { winner: null });

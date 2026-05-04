@@ -18,7 +18,8 @@ export async function POST({ request, params }) {
 		host: room.host,
 		guest: room.guest,
 		status: room.status,
-		mode: room.mode
+		mode: room.mode,
+		gameState: room.gameState
 	});
 	
 	if (room.host?.ready && room.guest?.ready) {

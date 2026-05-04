@@ -17,7 +17,8 @@ export function GET({ params }) {
 				host: room.host,
 				guest: room.guest,
 				status: room.status,
-				mode: room.mode
+				mode: room.mode,
+				gameState: room.gameState
 			};
 			controller.enqueue(`event: sync\ndata: ${JSON.stringify(state)}\n\n`);
 		},

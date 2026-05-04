@@ -1,65 +1,209 @@
 [
   {
-    "id": "2203e130-b19b-4f6e-9298-6eec1250f30b",
-    "name": "Talha",
-    "mode": "trivia",
-    "score": 500,
-    "playerCount": 1,
-    "opponent": null,
-    "timestamp": "2026-05-02T17:54:03.902Z"
-  },
-  {
-    "id": "4d2cf1ad-235d-4569-a05b-d37403705672",
-    "name": "taka",
-    "mode": "debug",
-    "score": 800,
-    "playerCount": 1,
-    "opponent": null,
-    "timestamp": "2026-05-02T17:55:00.863Z"
-  },
-  {
-    "id": "60163d5a-3041-4ec6-82ff-a5db3eb08392",
+    "id": "8fed37aa-cf2c-4667-b3ac-ed1da6123e5a",
     "name": "tal",
-    "mode": "trivia",
-    "score": 700,
+    "mode": "bug",
+    "score": 0,
     "playerCount": 2,
-    "opponent": "tallha",
-    "timestamp": "2026-05-02T18:16:11.242Z"
+    "opponent": "think",
+    "timestamp": "2026-05-04T12:33:53.957Z"
   },
   {
-    "id": "be3eebdd-0c2e-498d-9eed-352ecbcc222f",
-    "name": "tallha",
+    "id": "8708b139-8347-4e26-bd88-7fee6e982c86",
+    "name": "think",
+    "mode": "bug",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "tal",
+    "timestamp": "2026-05-04T12:33:53.970Z"
+  },
+  {
+    "id": "836e9662-898b-4f42-bfca-08c750018a6c",
+    "name": "t",
+    "mode": "merge",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "z",
+    "timestamp": "2026-05-04T12:35:27.214Z"
+  },
+  {
+    "id": "3cba7fdc-4cb0-4222-99e7-aeab327c6d85",
+    "name": "z",
+    "mode": "merge",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "t",
+    "timestamp": "2026-05-04T12:35:27.218Z"
+  },
+  {
+    "id": "7551179b-39c9-4326-aa46-dffd7051deb2",
+    "name": "taa",
     "mode": "trivia",
     "score": 1000,
     "playerCount": 2,
-    "opponent": "tal",
-    "timestamp": "2026-05-02T18:16:39.200Z"
+    "opponent": "t",
+    "timestamp": "2026-05-04T12:41:57.424Z"
   },
   {
-    "id": "9936c318-1eca-49f0-9f89-ff5c69ff24c9",
-    "name": "Talha",
-    "mode": "debug",
-    "score": 1300,
-    "playerCount": 2,
-    "opponent": "we",
-    "timestamp": "2026-05-02T18:23:58.027Z"
-  },
-  {
-    "id": "285d38b3-1bf6-4a8b-a8de-2ca968121f1b",
-    "name": "we",
-    "mode": "debug",
-    "score": 300,
-    "playerCount": 2,
-    "opponent": "Talha",
-    "timestamp": "2026-05-02T18:24:24.113Z"
-  },
-  {
-    "id": "4f88ca5a-3f76-4b36-8bd9-eb249f6e41d1",
+    "id": "16ac7193-8d6c-4800-91ab-a0f2df78550b",
     "name": "t",
-    "mode": "debug",
+    "mode": "trivia",
+    "score": 4988,
+    "playerCount": 2,
+    "opponent": "taa",
+    "timestamp": "2026-05-04T12:41:57.486Z"
+  },
+  {
+    "id": "39a05235-ed01-4629-ba3a-271794f00129",
+    "name": "i",
+    "mode": "ddos",
     "score": 0,
-    "playerCount": 1,
-    "opponent": null,
-    "timestamp": "2026-05-03T10:12:16.736Z"
+    "playerCount": 2,
+    "opponent": "taa",
+    "timestamp": "2026-05-04T12:43:28.423Z"
+  },
+  {
+    "id": "217b3e2b-5cbf-4f4e-9055-7bf53d6ee91b",
+    "name": "taa",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "i",
+    "timestamp": "2026-05-04T12:43:28.441Z"
+  },
+  {
+    "id": "350b6797-4761-43e4-86f5-c805f46f1b3b",
+    "name": "a",
+    "mode": "merge",
+    "score": 1700,
+    "playerCount": 2,
+    "opponent": "t",
+    "timestamp": "2026-05-04T12:54:59.741Z"
+  },
+  {
+    "id": "6c1a4a97-ba1e-45ec-86e0-122a48341b48",
+    "name": "ij",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "s",
+    "timestamp": "2026-05-04T12:56:26.976Z"
+  },
+  {
+    "id": "4d640664-23d2-4ae6-9169-b0e20955ec46",
+    "name": "s",
+    "mode": "ddos",
+    "score": 2000,
+    "playerCount": 2,
+    "opponent": "ij",
+    "timestamp": "2026-05-04T12:56:26.989Z"
+  },
+  {
+    "id": "3c16fbaa-86da-470e-bbef-615a72f0943e",
+    "name": "aaa",
+    "mode": "ddos",
+    "score": 1200,
+    "playerCount": 2,
+    "opponent": "aa",
+    "timestamp": "2026-05-04T12:58:04.931Z"
+  },
+  {
+    "id": "1f6ff9d0-90f9-4c02-89b7-5a3d365f9069",
+    "name": "aa",
+    "mode": "ddos",
+    "score": 800,
+    "playerCount": 2,
+    "opponent": "aaa",
+    "timestamp": "2026-05-04T12:58:04.956Z"
+  },
+  {
+    "id": "d543202c-97f2-4e2a-a8e4-247d8e54c3c6",
+    "name": "ijjj",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "sasasasas",
+    "timestamp": "2026-05-04T13:21:15.612Z"
+  },
+  {
+    "id": "792224bf-d42e-49ff-8e35-ca940557ae37",
+    "name": "sasasasas",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "ijjj",
+    "timestamp": "2026-05-04T13:21:15.708Z"
+  },
+  {
+    "id": "8ea828dd-dcf4-4de4-b446-f1a8218a95cc",
+    "name": "saas",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "xzxz",
+    "timestamp": "2026-05-04T13:22:48.249Z"
+  },
+  {
+    "id": "841fd7c2-6fcd-438e-b365-e94ecae68b05",
+    "name": "xzxz",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "saas",
+    "timestamp": "2026-05-04T13:22:48.256Z"
+  },
+  {
+    "id": "03366715-f8d5-4932-bcf9-393a3fa19eea",
+    "name": "jkkj",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "sasa",
+    "timestamp": "2026-05-04T13:33:37.173Z"
+  },
+  {
+    "id": "da47e24b-6034-4537-a3fe-739e6304113e",
+    "name": "sasa",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "jkkj",
+    "timestamp": "2026-05-04T13:33:37.205Z"
+  },
+  {
+    "id": "d1fd72ae-8401-4aee-89ac-961ed3a0141a",
+    "name": "aaaaa",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "sasa",
+    "timestamp": "2026-05-04T13:40:05.322Z"
+  },
+  {
+    "id": "a32202c4-8302-4cf9-a1ef-723ad262c13c",
+    "name": "sa",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "s",
+    "timestamp": "2026-05-04T13:41:37.560Z"
+  },
+  {
+    "id": "04f8381f-2bd1-4edf-891f-f8738c32d170",
+    "name": "l",
+    "mode": "merge",
+    "score": 1100,
+    "playerCount": 2,
+    "opponent": "jn",
+    "timestamp": "2026-05-04T13:43:02.897Z"
+  },
+  {
+    "id": "08e22919-6448-447d-91dc-aba17ad76df8",
+    "name": "jn",
+    "mode": "merge",
+    "score": 900,
+    "playerCount": 2,
+    "opponent": "l",
+    "timestamp": "2026-05-04T13:43:02.945Z"
   }
 ]

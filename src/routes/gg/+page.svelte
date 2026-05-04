@@ -73,10 +73,12 @@
 			</div>
 		{/if}
 
-		<div class="score-display">
-			<div class="label">FINAL SCORE</div>
-			<div class="number">{animatedScore}</div>
-		</div>
+		{#if session.mode !== 'ddos'}
+			<div class="score-display">
+				<div class="label">FINAL SCORE</div>
+				<div class="number">{animatedScore}</div>
+			</div>
+		{/if}
 
 		{#if history.length > 0}
 			<div class="recap-section">
@@ -101,7 +103,9 @@
 		{#if session.playerCount === 2}
 			<div class="opponent-stats neo-card">
 				<div class="vs-text">VS {session.opponentName}</div>
-				<div class="opp-score">{session.opponentScore}</div>
+				{#if session.mode !== 'ddos'}
+					<div class="opp-score">{session.opponentScore}</div>
+				{/if}
 				{#if opponentHistory.length > 0}
 					<div class="history-grid mini">
 						{#each opponentHistory as result}

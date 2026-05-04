@@ -136,6 +136,8 @@
 			{#if !isJoining}
 				<div class="selector-group">
 					<h3>GAME MODE</h3>
+					
+					<div class="mode-category">QUIZ / PUZZLE (1P OR 2P)</div>
 					<div class="neo-toggle">
 						<button 
 							class="toggle-btn {mode === 'trivia' ? 'active bg-blue text-white' : ''}" 
@@ -150,10 +152,19 @@
 							DEBUG
 						</button>
 					</div>
+
+					<div class="mode-category" style="margin-top: 16px;">ARCADE (2P ONLY)</div>
+					<div class="neo-toggle mini-toggle">
+						<button class="toggle-btn {mode === 'merge' ? 'active bg-red text-white' : ''}" on:click={() => mode = 'merge'}>MERGE</button>
+						<button class="toggle-btn {mode === 'ddos' ? 'active bg-green text-white' : ''}" on:click={() => mode = 'ddos'}>DDOS</button>
+						<button class="toggle-btn {mode === 'bug' ? 'active bg-blue text-white' : ''}" on:click={() => mode = 'bug'}>BUG</button>
+					</div>
 				</div>
 
 				<div class="action-buttons">
-					<button class="neo-btn action-btn bg-white" on:click={playSolo} disabled={loading}>PLAY SOLO</button>
+					{#if mode !== 'merge' && mode !== 'ddos' && mode !== 'bug'}
+						<button class="neo-btn action-btn bg-white" on:click={playSolo} disabled={loading}>PLAY SOLO</button>
+					{/if}
 					<button class="neo-btn action-btn bg-white" on:click={createRoom} disabled={loading}>CREATE 2P ROOM</button>
 				</div>
 				
@@ -306,6 +317,14 @@
 		text-align: center;
 	}
 
+	.mode-category {
+		font-family: var(--font-mono);
+		font-weight: bold;
+		font-size: 0.9rem;
+		margin-bottom: 8px;
+		color: #555;
+	}
+
 	.neo-toggle {
 		display: flex;
 		border: var(--neo-border);
@@ -337,6 +356,11 @@
 	.toggle-btn.active {
 		box-shadow: inset 4px 4px 0px rgba(0,0,0,0.3);
 		text-shadow: 2px 2px 0px #000;
+	}
+
+	.mini-toggle .toggle-btn {
+		padding: 12px;
+		font-size: 1rem;
 	}
 	
 	.text-white { color: #fff !important; }
