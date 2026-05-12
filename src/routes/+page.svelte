@@ -108,7 +108,7 @@
 
 <div class="landing-container">
 	<div class="left-column">
-		<img src="/w.png" alt="GDGOC Logo" class="logo" />
+		<img src="/logo.png" alt="GDGOC Logo" class="logo" />
 		
 		<div class="title-container">
 			<h2>Google Developer Group on Campus<br>Murdoch University Dubai</h2>
