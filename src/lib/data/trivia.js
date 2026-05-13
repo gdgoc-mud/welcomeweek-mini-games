@@ -1,182 +1,242 @@
 export const triviaBank = [
 	{
 		id: 1,
-		question: "What does \"Wi-Fi\" stand for?",
+		question: "How do you save and exit the terminal text-editor, Vim?",
 		options: [
-			"Wireless Fidelity",
-			"Wide Frequency",
-			"Wired Fidelity",
-			"Wireless Framework"
+			"Press Esc and type “:wq”",
+			"Press Esc and type “%d”",
+			"Press Ctrl + S",
+			"You can’t. Welcome to your new prison."
 		],
 		correctIndex: 0,
-		hint: "It's a marketing term, not a real technical acronym — but the words it stands for relate to wireless and quality."
+		hint: "Write and quit."
 	},
 	{
 		id: 2,
-		question: "What does an IP address identify?",
+		question: "In Web Development, What does the MERN stack refer to?",
 		options: [
-			"A device on a network",
-			"A user's password hash",
-			"A file's location on disk",
-			"A browser's version"
+			"MongoDB, Express.js, React, Node.js",
+			"MySQL, Ember.js, Ruby, Netlify",
+			"MariaDB, Electron, Redux, Next.js",
+			"MongoDB, Angular, Rails, Node.js"
 		],
 		correctIndex: 0,
-		hint: "Every device connected to the internet has one — it's how data knows where to go."
+		hint: "It uses React for the frontend."
 	},
 	{
 		id: 3,
-		question: "Which of these is NOT a programming language?",
+		question: "What is Git primarily Used for?",
 		options: [
-			"Markdown",
-			"Python",
-			"JavaScript",
-			"Rust"
+			"Managing project versions and tracking code changes",
+			"Managing server databases",
+			"Compiling programming languages",
+			"Automating unit tests and cloud deployment"
 		],
 		correctIndex: 0,
-		hint: "One of these is used for formatting documents, not giving instructions to a computer."
+		hint: "It's a version control system."
 	},
 	{
 		id: 4,
-		question: "What does \"open source\" mean?",
+		question: "How would you print formatted text in C?",
 		options: [
-			"The source code is publicly available",
-			"The software is free to use commercially",
-			"The software has no bugs",
-			"It runs on all operating systems"
+			"printf()",
+			"print()",
+			"cout",
+			"System.out.println()"
 		],
 		correctIndex: 0,
-		hint: "Think about what \"source\" refers to in software development."
+		hint: "The 'f' stands for formatted."
 	},
 	{
 		id: 5,
-		question: "What is a QR code used for?",
+		question: "When Traversing a Tree Data Structure, Which traversal is not valid?",
 		options: [
-			"Encoding data that a camera can read",
-			"Encrypting files",
-			"Streaming video",
-			"Measuring screen resolution"
+			"Chud-Order",
+			"In-Order",
+			"Post-Order",
+			"Pre-Order"
 		],
 		correctIndex: 0,
-		hint: "You probably scanned one today."
+		hint: "One of these is definitely a meme."
 	},
 	{
 		id: 6,
-		question: "What does DNS stand for and what does it do?",
+		question: "What happens when you call a function inside itself?",
 		options: [
-			"Domain Name System — translates domain names to IP addresses",
-			"Data Network Switch — routes packets between networks",
-			"Dynamic Node Service — manages server uptime",
-			"Domain Network Security — encrypts web traffic"
+			"Recursion",
+			"An infinite loop always",
+			"A syntax error",
+			"Runs like normal"
 		],
 		correctIndex: 0,
-		hint: "It's why you type \"google.com\" instead of an IP address."
+		hint: "It's the programmatic equivalent of a mirror facing a mirror."
 	},
 	{
 		id: 7,
-		question: "Which HTTP status code means \"Not Found\"?",
+		question: "Which of the following is not an Object-Oriented programming principle?",
 		options: [
-			"404",
-			"200",
-			"500",
-			"301"
+			"Compilation",
+			"Encapsulation",
+			"Abstraction",
+			"Polymorphism"
 		],
 		correctIndex: 0,
-		hint: "You've definitely seen this on a broken webpage."
+		hint: "One of these is a step in building software, not a design principle."
 	},
 	{
 		id: 8,
-		question: "In cybersecurity, what is a \"phishing\" attack?",
+		question: "Which of the following is a characteristic of a Stack data structure?",
 		options: [
-			"Tricking users into revealing sensitive info via fake communication",
-			"Flooding a server with traffic to take it offline",
-			"Injecting malicious code into a database query",
-			"Intercepting network packets in transit"
+			"It follows a Last-In-First-Out (LIFO) order.",
+			"Elements are accessed using index values.",
+			"Elements are inserted and deleted at both ends.",
+			"Prioritizes elements based on assigned urgency values."
 		],
 		correctIndex: 0,
-		hint: "The name is a pun on \"fishing\" — you're casting bait."
+		hint: "Think of a stack of plates."
 	},
 	{
 		id: 9,
-		question: "What layer of the OSI model does HTTP operate on?",
+		question: "What do programmers use to measure an algorithm's efficiency?",
 		options: [
-			"Application (Layer 7)",
-			"Transport (Layer 4)",
-			"Network (Layer 3)",
-			"Presentation (Layer 6)"
+			"Big O notation",
+			"System Benchmarks",
+			"Programmers Intuition",
+			"Line Metrics"
 		],
 		correctIndex: 0,
-		hint: "It's the topmost layer — closest to the user."
+		hint: "It has a large letter O."
 	},
 	{
 		id: 10,
-		question: "What is the purpose of a \"git commit\"?",
+		question: "What is the purpose of an IP address?",
 		options: [
-			"Save a snapshot of changes to the repository",
-			"Upload your code to GitHub",
-			"Merge two branches together",
-			"Delete untracked files"
+			"To uniquely identify a device on a network",
+			"To encrypt data sent over a network",
+			"To measure the speed of a network connection",
+			"To store website data on a server"
 		],
 		correctIndex: 0,
-		hint: "Think of it like a save point in a video game."
+		hint: "It acts like a postal address for devices."
 	},
 	{
 		id: 11,
-		question: "What is the output of this Python snippet?\nprint(type(1/2))",
+		question: "Which symbol is used for single line comments in Python?",
 		options: [
-			"<class 'float'>",
-			"<class 'int'>",
-			"<class 'str'>",
-			"TypeError"
+			"#",
+			"//",
+			"--",
+			"/*"
 		],
 		correctIndex: 0,
-		hint: "In Python 3, dividing two integers does not always return an integer."
+		hint: "Also known as a hashtag or pound sign."
 	},
 	{
 		id: 12,
-		question: "Which of these correctly describes a SQL injection attack?",
+		question: "Which of the following is a primitive data type?",
 		options: [
-			"Inserting malicious SQL into an input field to manipulate a database",
-			"Running SQL queries faster by bypassing authentication",
-			"Encrypting a database with SQL commands",
-			"Crashing a server by sending too many queries"
+			"Integer",
+			"Array",
+			"Dictionary",
+			"Object"
 		],
 		correctIndex: 0,
-		hint: "It exploits the fact that user input is sometimes directly embedded into a query string."
+		hint: "It represents a basic whole number."
 	},
 	{
 		id: 13,
-		question: "What does this JavaScript evaluate to?\nconsole.log(0.1 + 0.2 === 0.3)",
+		question: "What is NULL in programming?",
 		options: [
-			"false",
-			"true",
-			"NaN",
-			"undefined"
+			"The absence of a value",
+			"The number zero",
+			"An empty string",
+			"A false boolean"
 		],
 		correctIndex: 0,
-		hint: "Floating point arithmetic in binary has precision limits."
+		hint: "It means 'nothing'."
 	},
 	{
 		id: 14,
-		question: "In machine learning, what does \"overfitting\" mean?",
+		question: "What does pop() do to a list?",
 		options: [
-			"The model performs well on training data but poorly on new data",
-			"The model is too simple to capture patterns in the data",
-			"The model was trained on too little data",
-			"The model's weights exceeded maximum values"
+			"Removes and returns the last element",
+			"Adds an element to the end",
+			"Sorts and removes duplicates",
+			"Clears the entire list"
 		],
 		correctIndex: 0,
-		hint: "It's like memorizing the answers to a practice test rather than understanding the material."
+		hint: "It 'pops' it off the top."
 	},
 	{
 		id: 15,
-		question: "What is the time complexity of binary search on a sorted array?",
+		question: "What is the first index of a string?",
 		options: [
-			"O(log n)",
-			"O(n)",
-			"O(n log n)",
-			"O(1)"
+			"0",
+			"1",
+			"-1",
+			"Depends on the string"
 		],
 		correctIndex: 0,
-		hint: "Each step eliminates half the remaining elements."
+		hint: "Most programming languages start counting from here."
+	},
+	{
+		id: 16,
+		question: "What does \\n do inside a string?",
+		options: [
+			"Adds a new line",
+			"Adds a tab",
+			"Ends the string",
+			"Escapes a character"
+		],
+		correctIndex: 0,
+		hint: "n stands for new."
+	},
+	{
+		id: 17,
+		question: "What is the difference between RAM and ROM?",
+		options: [
+			"RAM is temporary, ROM is permanent",
+			"RAM is permanent, ROM is temporary",
+			"RAM stores programs, ROM stores the OS",
+			"They are the same thing"
+		],
+		correctIndex: 0,
+		hint: "Read-Only Memory is the permanent one."
+	},
+	{
+		id: 18,
+		question: "What is phishing?",
+		options: [
+			"Tricking users into revealing sensitive information",
+			"A method of speeding up a network",
+			"A type of encryption algorithm",
+			"A way of compressing data"
+		],
+		correctIndex: 0,
+		hint: "It's like fishing for passwords."
+	},
+	{
+		id: 19,
+		question: "What is a bit?",
+		options: [
+			"The smallest unit of data, either 0 or 1",
+			"A single character",
+			"A unit of network speed",
+			"A single instruction in a program"
+		],
+		correctIndex: 0,
+		hint: "Binary digit."
+	},
+	{
+		id: 20,
+		question: "What is the purpose of a load balancer?",
+		options: [
+			"Distributes traffic across multiple servers",
+			"Monitors network security",
+			"Compresses incoming data",
+			"Backs up server data"
+		],
+		correctIndex: 0,
+		hint: "It balances the load of incoming traffic."
 	}
 ];
