@@ -574,32 +574,5 @@
     "playerCount": 2,
     "opponent": "trish",
     "timestamp": "2026-05-12T11:08:29.879Z"
-  },
-  {
-    "id": "27af7473-36c6-4eda-8063-2e1961c3ce6a",
-    "name": "Sahal",
-    "mode": "trivia",
-    "score": 11781,
-    "playerCount": 1,
-    "opponent": null,
-    "timestamp": "2026-05-12T19:40:06.020Z"
-  },
-  {
-    "id": "60e638db-6bf2-435f-8db6-2b4868e412ef",
-    "name": "al",
-    "mode": "bug",
-    "score": 1300,
-    "playerCount": 2,
-    "opponent": "Sah",
-    "timestamp": "2026-05-12T19:44:07.403Z"
-  },
-  {
-    "id": "c286d5b9-3b79-4835-a32f-f9b6d9061b0b",
-    "name": "Sah",
-    "mode": "bug",
-    "score": 6000,
-    "playerCount": 2,
-    "opponent": "al",
-    "timestamp": "2026-05-12T19:44:07.405Z"
   }
 ]

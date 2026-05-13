@@ -252,7 +252,10 @@
 	.bg-red { background-color: var(--md-sys-color-error); color: #fff; }
 	.bg-yellow { background-color: var(--md-sys-color-tertiary); }
 	.bg-black { background-color: #111; color: #fff; }
-	.text-green { color: #0f0; filter: drop-shadow(0 0 8px #0f0); }
+	.text-green { 
+		color: #0f0; 
+		filter: drop-shadow(2px 0px 0px #000) drop-shadow(-2px 0px 0px #000) drop-shadow(0px 2px 0px #000) drop-shadow(0px -2px 0px #000); 
+	}
 	
 	.you-badge {
 		font-size: 0.6em;
