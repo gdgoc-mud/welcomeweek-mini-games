@@ -36,6 +36,9 @@
 		<div class="neo-toggle tabs">
 			<button class="toggle-btn {activeTab === 'trivia' ? 'active bg-blue text-white' : 'bg-white'}" on:click={() => activeTab = 'trivia'}>TRIVIA</button>
 			<button class="toggle-btn {activeTab === 'debug' ? 'active bg-yellow' : 'bg-white'}" on:click={() => activeTab = 'debug'}>DEBUG</button>
+			<button class="toggle-btn {activeTab === 'merge' ? 'active bg-red text-white' : 'bg-white'}" on:click={() => activeTab = 'merge'}>MERGE</button>
+			<button class="toggle-btn {activeTab === 'bug' ? 'active bg-green text-white' : 'bg-white'}" on:click={() => activeTab = 'bug'}>BUG</button>
+			<button class="toggle-btn {activeTab === 'ddos' ? 'active bg-black text-white' : 'bg-white'}" on:click={() => activeTab = 'ddos'}>DDOS</button>
 		</div>
 	</div>
 
@@ -101,9 +104,16 @@
 	}
 	
 	.active.bg-yellow { color: #fff; text-shadow: 2px 2px 0px #000; }
+	.active.bg-blue { text-shadow: 2px 2px 0px #000; }
+	.active.bg-red { text-shadow: 2px 2px 0px #000; }
+	.active.bg-green { text-shadow: 2px 2px 0px #000; }
+	.active.bg-black { text-shadow: 2px 2px 0px #000; }
 
 	.bg-blue { background-color: var(--md-sys-color-primary); }
 	.bg-yellow { background-color: var(--md-sys-color-tertiary); }
+	.bg-red { background-color: var(--md-sys-color-error); }
+	.bg-green { background-color: #0a0; }
+	.bg-black { background-color: #111; }
 	.bg-white { background-color: #fff; }
 	.text-white { color: #fff; }
 
