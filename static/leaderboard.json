@@ -90,6 +90,20 @@
     "timestamp": "2026-05-12T09:01:55.724Z"
   },
   {
+    "playerCount": 2,
+    "opponent": "talha",
+    "timestamp": "2026-05-12T09:01:55.593Z"
+  },
+  {
+    "id": "338fbbd5-7782-4c62-93cc-b2a26e270bdb",
+    "name": "talha",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "Trish",
+    "timestamp": "2026-05-12T09:01:55.724Z"
+  },
+  {
     "id": "31eaabf2-ea17-4f73-bb8c-eeb77b217ba2",
     "name": "bilal",
     "mode": "trivia",
@@ -144,6 +158,20 @@
     "timestamp": "2026-05-12T09:16:21.455Z"
   },
   {
+    "playerCount": 2,
+    "opponent": "talha",
+    "timestamp": "2026-05-12T09:15:39.213Z"
+  },
+  {
+    "id": "f6f21195-e448-4804-8764-d0f1596491cf",
+    "name": "AYA",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "mur again",
+    "timestamp": "2026-05-12T09:16:21.455Z"
+  },
+  {
     "id": "284eddad-bfd8-4e23-a223-8d5e8bdc8f57",
     "name": "mur again",
     "mode": "ddos",
@@ -173,6 +201,13 @@
   {
     "id": "a99a2bac-b3ea-4b50-9445-108d65dda709",
     "name": "Max Finmore",
+    "playerCount": 2,
+    "opponent": "idris",
+    "timestamp": "2026-05-12T09:21:33.686Z"
+  },
+  {
+    "id": "a99a2bac-b3ea-4b50-9445-108d65dda709",
+    "name": "Max Finmore",
     "mode": "ddos",
     "score": 1,
     "playerCount": 2,
@@ -195,6 +230,108 @@
     "score": 1,
     "playerCount": 2,
     "opponent": "RAE",
+    "timestamp": "2026-05-12T09:21:59.863Z"
+  },
+  {
+    "id": "255bc732-d7e7-461e-9940-60fa52bec3c3",
+    "name": "RAE",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "Max Finmore",
+    "timestamp": "2026-05-12T09:21:59.902Z"
+  },
+  {
+    "id": "480e81c2-ee65-4dfc-8350-6cd5d3f9b67c",
+    "name": "Max Fin",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "RAE",
+    "timestamp": "2026-05-12T09:23:55.196Z"
+  },
+  {
+    "id": "89516900-d5ef-46d7-b639-30ab6573e4a1",
+    "name": "tawana ",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "Tai",
+    "timestamp": "2026-05-12T09:26:55.138Z"
+  },
+  {
+    "id": "adc9b525-22e4-48ec-a5fc-0b93bc97ff0d",
+    "name": "Tai",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "tawana ",
+    "timestamp": "2026-05-12T09:26:55.223Z"
+  },
+  {
+    "id": "3c176965-a96c-424a-9ac7-639c8a3ac552",
+    "name": "Aryaman",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "Max Finmore",
+    "timestamp": "2026-05-12T09:32:32.421Z"
+  },
+  {
+    "id": "c748d24b-2492-4654-b150-71896d51c6ef",
+    "name": "Mahmoud",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "mur",
+    "timestamp": "2026-05-12T09:37:40.751Z"
+  },
+  {
+    "id": "fefb8cea-b140-409b-ad93-e96b65883fdb",
+    "name": "hifza",
+    "mode": "debug",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "kamilla",
+    "timestamp": "2026-05-12T09:44:32.402Z"
+  },
+  {
+    "id": "ded1c4f2-0615-46fe-b949-832a21ef262d",
+    "name": "kamilla",
+    "mode": "debug",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "hifza",
+    "timestamp": "2026-05-12T09:44:32.643Z"
+  },
+  {
+    "id": "a75cf48a-396f-4c19-9094-11d503419774",
+    "name": "hifza",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "kamilla",
+    "timestamp": "2026-05-12T09:46:38.654Z"
+  },
+  {
+    "id": "7e35c290-9640-41dd-a89c-a6f535bf5779",
+    "name": "kamilla",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "hifza",
+    "timestamp": "2026-05-12T09:46:38.675Z"
+  },
+  {
+    "id": "01f464f7-d750-4357-97ef-d805ef792a79",
+    "name": "Fayyad",
+    "mode": "trivia",
+    "score": 18566,
+    "playerCount": 2,
+    "opponent": "abhishek",
+    "timestamp": "2026-05-12T09:46:57.754Z"
+  },
+  {
     "timestamp": "2026-05-12T09:23:55.196Z"
   },
   {
@@ -498,6 +635,209 @@
     "id": "34cb43bb-be0e-4802-a42b-a394023052df",
     "name": "mur",
     "mode": "merge",
+  },
+  {
+    "id": "004917ee-3a27-4e1a-baf5-578c11e639c9",
+    "name": "Yash",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "chris",
+    "timestamp": "2026-05-12T09:48:58.043Z"
+  },
+  {
+    "id": "883ccb6b-ae94-4f09-8274-efff09978fce",
+    "name": "JASMIT",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T09:50:39.529Z"
+  },
+  {
+    "id": "3fc383a4-8dcb-4473-8d9d-54cb164dc546",
+    "name": "jasmit",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T09:52:25.910Z"
+  },
+  {
+    "id": "5bc670fb-3b54-448b-9cc8-3e0c0e9d2d8e",
+    "name": "jasmit",
+    "mode": "bug",
+    "score": 3900,
+    "playerCount": 2,
+    "opponent": "talha",
+    "timestamp": "2026-05-12T09:59:47.823Z"
+  },
+  {
+    "id": "d21bd737-f386-4ea9-9ed1-48b1054f6c48",
+    "name": "talha",
+    "mode": "bug",
+    "score": 3300,
+    "playerCount": 2,
+    "opponent": "jasmit",
+    "timestamp": "2026-05-12T09:59:53.816Z"
+  },
+  {
+    "id": "c4f45677-ee1c-4378-a359-4f34e58614c3",
+    "name": "talja",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "Jasmit",
+    "timestamp": "2026-05-12T10:01:48.292Z"
+  },
+  {
+    "id": "daf9802d-2599-4724-93c6-d69623b28ec2",
+    "name": "Jasmit",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "talja",
+    "timestamp": "2026-05-12T10:01:48.294Z"
+  },
+  {
+    "id": "d867a4b5-3009-4015-833b-3dbf366b993f",
+    "name": "mamdoh",
+    "mode": "trivia",
+    "score": 7958,
+    "playerCount": 2,
+    "opponent": "Aya",
+    "timestamp": "2026-05-12T10:07:17.141Z"
+  },
+  {
+    "id": "034e28df-2986-43f4-bcb1-662413f26a20",
+    "name": "Kloe",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:16:50.304Z"
+  },
+  {
+    "id": "fb0bf7e1-39db-4a57-83f7-97a81eb5d3e7",
+    "name": "jer",
+    "mode": "bug",
+    "score": 3400,
+    "playerCount": 2,
+    "opponent": "bilal",
+    "timestamp": "2026-05-12T10:19:23.632Z"
+  },
+  {
+    "id": "4fa372d1-012e-4538-9fa2-88ece6970f02",
+    "name": "bilal",
+    "mode": "bug",
+    "score": 3400,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:19:23.668Z"
+  },
+  {
+    "id": "768624a7-8872-45a6-ae2e-b61c018c203a",
+    "name": "Dec",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:21:23.706Z"
+  },
+  {
+    "id": "aca5a46b-3c91-4fc8-a9f0-6d0f1b5acdbc",
+    "name": "Khant",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:23:46.764Z"
+  },
+  {
+    "id": "ddea1d80-f0fb-4c36-a558-cb2efce75694",
+    "name": "Khant",
+    "mode": "merge",
+    "score": 1000,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:25:21.523Z"
+  },
+  {
+    "id": "5856515a-220c-4873-b509-e28cdb979ca5",
+    "name": "jer",
+    "mode": "merge",
+    "score": 2600,
+    "playerCount": 2,
+    "opponent": "Khant",
+    "timestamp": "2026-05-12T10:25:21.727Z"
+  },
+  {
+    "id": "103d0fd2-57a6-420d-a65a-a00e99b150a7",
+    "name": "Dec",
+    "mode": "merge",
+    "score": 2800,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:26:46.903Z"
+  },
+  {
+    "id": "c1412709-0a2f-40a0-a1ea-b0c9a846e801",
+    "name": "bilal",
+    "mode": "merge",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "jer",
+    "timestamp": "2026-05-12T10:30:26.995Z"
+  },
+  {
+    "id": "d8be0d4b-b087-4c5d-b642-443ac1ced868",
+    "name": "jer",
+    "mode": "trivia",
+    "score": 15619,
+    "playerCount": 2,
+    "opponent": "bilal",
+    "timestamp": "2026-05-12T10:33:47.829Z"
+  },
+  {
+    "id": "9c26cd96-ee29-4eb7-a3aa-98e1c098f80d",
+    "name": "trish",
+    "mode": "bug",
+    "score": 2800,
+    "playerCount": 2,
+    "opponent": "talha",
+    "timestamp": "2026-05-12T10:43:09.297Z"
+  },
+  {
+    "id": "3e778b09-592c-4f54-8f0c-a87dfb6e4a57",
+    "name": "trish",
+    "mode": "ddos",
+    "score": 0,
+    "playerCount": 2,
+    "opponent": "talha neo",
+    "timestamp": "2026-05-12T10:45:27.094Z"
+  },
+  {
+    "id": "dbe3f410-b271-49c2-a3c2-182c972e7bc9",
+    "name": "talha neo",
+    "mode": "ddos",
+    "score": 1,
+    "playerCount": 2,
+    "opponent": "trish",
+    "timestamp": "2026-05-12T10:45:27.098Z"
+  },
+  {
+    "id": "3be25852-3973-453d-a9db-18eedacab081",
+    "name": "trish",
+    "mode": "merge",
+    "score": 600,
+    "playerCount": 2,
+    "opponent": "mur",
+    "timestamp": "2026-05-12T10:48:28.819Z"
+  },
+  {
+    "id": "34cb43bb-be0e-4802-a42b-a394023052df",
+    "name": "mur",
+    "mode": "merge",
     "score": 1900,
     "playerCount": 2,
     "opponent": "trish",
@@ -571,6 +911,36 @@
     "name": "Tai",
     "mode": "bug",
     "score": 1200,
+    "playerCount": 2,
+    "opponent": "trish",
+    "timestamp": "2026-05-12T11:08:29.879Z"
+  },
+  {
+    "id": "27af7473-36c6-4eda-8063-2e1961c3ce6a",
+    "name": "Sahal",
+    "mode": "trivia",
+    "score": 11781,
+    "playerCount": 1,
+    "opponent": null,
+    "timestamp": "2026-05-12T19:40:06.020Z"
+  },
+  {
+    "id": "60e638db-6bf2-435f-8db6-2b4868e412ef",
+    "name": "al",
+    "mode": "bug",
+    "score": 1300,
+    "playerCount": 2,
+    "opponent": "Sah",
+    "timestamp": "2026-05-12T19:44:07.403Z"
+  },
+  {
+    "id": "c286d5b9-3b79-4835-a32f-f9b6d9061b0b",
+    "name": "Sah",
+    "mode": "bug",
+    "score": 6000,
+    "playerCount": 2,
+    "opponent": "al",
+    "timestamp": "2026-05-12T19:44:07.405Z"
     "playerCount": 2,
     "opponent": "trish",
     "timestamp": "2026-05-12T11:08:29.879Z"
