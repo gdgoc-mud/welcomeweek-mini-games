@@ -27,6 +27,37 @@
 			loadBoard();
 		}
 	}
+
+	let fileInput;
+	
+	async function handleImport(e) {
+		const file = e.target.files?.[0];
+		if (!file) return;
+		
+		try {
+			const text = await file.text();
+			const data = JSON.parse(text);
+			
+			if (!Array.isArray(data)) {
+				alert('Invalid format: expected an array of entries');
+				return;
+			}
+			
+			if (confirm(`Import ${data.length} entries?`)) {
+				await fetch('/api/leaderboard', { 
+					method: 'PUT',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify(data)
+				});
+				loadBoard();
+				alert('Import successful!');
+			}
+		} catch (err) {
+			alert('Failed to parse JSON file');
+		}
+		
+		fileInput.value = '';
+	}
 </script>
 
 <div class="admin-container">
@@ -34,6 +65,8 @@
 		<h1>void/admin</h1>
 		<div class="actions">
 			<md-outlined-button href="/api/leaderboard/export" target="_blank">Export JSON</md-outlined-button>
+			<md-outlined-button on:click={() => fileInput.click()}>Import JSON</md-outlined-button>
+			<input type="file" accept=".json" bind:this={fileInput} on:change={handleImport} style="display:none" />
 			<md-filled-button on:click={clearAll} class="danger">Clear All Scores</md-filled-button>
 			<md-text-button href="/">Exit</md-text-button>
 		</div>
