@@ -48,6 +48,28 @@ export async function POST({ request }) {
 	return json(leaderboard);
 }
 
+export async function PUT({ request }) {
+	const body = await request.json();
+	const leaderboard = readLeaderboard();
+	
+	for (const entry of body) {
+		if (!entry.name || !entry.mode || entry.score === undefined) continue;
+		
+		leaderboard.push({
+			id: entry.id || crypto.randomUUID(),
+			name: entry.name,
+			mode: entry.mode,
+			score: entry.score,
+			playerCount: entry.playerCount || 1,
+			opponent: entry.opponent || null,
+			timestamp: entry.timestamp || new Date().toISOString()
+		});
+	}
+	
+	writeLeaderboard(leaderboard);
+	return json({ success: true, count: body.length });
+}
+
 export async function DELETE({ request }) {
 	const url = new URL(request.url);
 	const id = url.searchParams.get('id');

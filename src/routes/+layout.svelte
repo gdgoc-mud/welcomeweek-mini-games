@@ -191,9 +191,7 @@
 </script>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="%sveltekit.assets%/fonts">
 </svelte:head>
 
 <canvas bind:this={canvas} class="warp-canvas"></canvas>
@@ -203,6 +201,17 @@
 </div>
 
 <style>
+	@font-face {
+		font-family: 'Google Sans';
+		src: url('/fonts/GoogleSans_Variable.ttf') format('truetype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'JetBrains Mono';
+		src: url('/fonts/JetBrainsMono_Variable.ttf') format('truetype');
+		font-display: swap;
+	}
+
 	:global(:root) {
 		/* Neobrutalism Tokens */
 		--neo-border: 4px solid #000;
